@@ -93,20 +93,6 @@ python main.py
 
 The program will periodically check the current Bitcoin price and automatically send an email notification whenever a change is detected.
 
-## Future Improvements
-
-* Support multiple cryptocurrencies
-
-* User-defined target price alerts
-  
-* Price history stored in SQLite
-  
-* Telegram and Discord notifications
-  
-* Logging system
-  
-* Docker support
-
 ## Disclaimer
 
 This project is intended for educational purposes and personal learning. Please respect the terms of service of any website you scrape.
