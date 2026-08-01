@@ -15,7 +15,7 @@ def Value():
 
 price = Value()
 
-def Alerta(email1,senha,email2):
+def Alert(email1):
     global price
 
     new_value = Value()
