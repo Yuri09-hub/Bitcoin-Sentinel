@@ -10,7 +10,7 @@ def message(email:EmailStr,value):
     content = f"<p>The price of bitcoin has changed to {value} USD</p>"
     msg = Message()
     msg['subject'] = 'Price alert'
-    msg['from'] = str(os.getenv("Email"))
+    msg['from'] = str(os.getenv("EMAIL"))
     msg['to'] = email
     msg.add_header("content-type", "text/html")
     msg.set_payload(content)
