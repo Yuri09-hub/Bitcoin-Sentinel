@@ -15,7 +15,6 @@ This project was built to practice web scraping, task scheduling, email automati
 
 ## Technologies
 
-* Python 3
 * Requests
 * BeautifulSoup4
 * Schedule
